@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './Login.css'
+import './Signup.css'
 
 export default function Signup() {
   const [email , setEmail] = useState('')
@@ -23,7 +23,7 @@ export default function Signup() {
         <label clasname="test">Password:</label>
         <input type='password' value={password} onChange={e => setPassword(e.target.value)} placeholder="Enter Password Here"/>
         </form>
-        <button type="submit">Login</button>
+        <button type="submit">Signup</button>
         </div>
       </div>
       <div className="split right">
